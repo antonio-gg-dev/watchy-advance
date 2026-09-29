@@ -8,4 +8,5 @@ FixNamespaceComments: false
 IndentAccessModifiers: true
 IndentWidth: 4
 PointerAlignment: Left
+SeparateDefinitionBlocks: Always
 UseTab: Never
