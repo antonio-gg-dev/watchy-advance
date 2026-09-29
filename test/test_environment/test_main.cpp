@@ -1,12 +1,8 @@
 #include <unity.h>
 
-void setUp()
-{
-}
+void setUp() {}
 
-void tearDown()
-{
-}
+void tearDown() {}
 
 void test_environment_runs()
 {

@@ -4,13 +4,9 @@
 
 using watchy_advance::Time;
 
-void setUp()
-{
-}
+void setUp() {}
 
-void tearDown()
-{
-}
+void tearDown() {}
 
 void test_formats_single_digit_hour_and_minute()
 {

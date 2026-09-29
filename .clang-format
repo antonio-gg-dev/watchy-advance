@@ -1,0 +1,11 @@
+BasedOnStyle: LLVM
+
+AccessModifierOffset: -4
+AllowShortFunctionsOnASingleLine: Empty
+BinPackArguments: false
+BreakBeforeBraces: Allman
+ColumnLimit: 120
+FixNamespaceComments: false
+IndentWidth: 4
+PointerAlignment: Left
+UseTab: Never

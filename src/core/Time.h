@@ -3,9 +3,11 @@
 #include <cstdint>
 #include <string>
 
-namespace watchy_advance {
+namespace watchy_advance
+{
 
-class Time {
+class Time
+{
 public:
     Time(std::uint8_t hour, std::uint8_t minute);
 
