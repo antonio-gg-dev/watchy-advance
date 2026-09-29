@@ -1,7 +1,7 @@
 .DEFAULT_GOAL := help
 .PHONY: test
 
-FORMAT_FILES := $(shell git ls-files '*.cpp' '*.h')
+FORMAT_FILES := $(shell git ls-files --cached --others --exclude-standard -- '*.cpp' '*.h')
 LINT_FLAGS := clangtidy: --config-file=.clang-tidy
 
 test: ## Run native simulator tests
